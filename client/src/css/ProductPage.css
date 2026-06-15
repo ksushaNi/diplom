@@ -1,0 +1,55 @@
+.product-image{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.star{
+    width: 280px;
+    height: 280px; 
+    background-size: 'cover'; 
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+}
+h1, h2{
+    color: #4A0011;
+    font-family: 'Alegreya', serif;
+}
+.cena{
+    width: 300px;
+    height: 300px;
+    font-size: 32px;
+    border: 5px solid #4A0011;
+    color: #4A0011;
+    margin-top: 20px;
+}
+.button{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+    border-width: 2px;
+    font-family: 'Alegreya', serif;
+}
+.button:hover{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+}
+.product-description {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    color: #4A0011;
+    line-height: 1.5;
+}
+.product-title {
+    color: #4A0011;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product-rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

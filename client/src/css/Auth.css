@@ -1,0 +1,26 @@
+.card{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    border-width: 5px;
+    font-family: 'Alegreya', serif;
+}
+.button{
+    background-color: transparent;
+    border: 2px solid #4A0011;
+    color: #4A0011;
+}
+.button:hover{
+    background-color: #4A0011;
+    color: #F5D0D0;
+    border-color: #4A0011;
+}
+.email{
+    border-color: #4A0011;
+}
+.password{
+    border-color: #4A0011;
+}
+.btn-primary:active {
+    background-color: #4A0011 !important;
+    border-color: #4A0011 !important;
+}

@@ -1,0 +1,21 @@
+.button-type{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+    border-width: 2px;
+    font-family: 'Alegreya', serif;
+}
+
+.button-type:hover{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+}
+.button-type.active{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+}
+.button-type:first-child{
+    margin-top: 5px;
+}

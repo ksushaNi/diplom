@@ -1,0 +1,70 @@
+.yourBascket{
+    padding-top: 8px;
+    color: #4A0011;
+    font-family: 'Alegreya', serif;
+}
+.card{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    border-width: 2px;
+}
+.card-title{
+    color: #4A0011;
+}
+.card-text{
+    color: #4a001189;
+}
+.button-go-menu{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+}
+.button-go-menu:hover{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+}
+.table thead th{
+    background-color: #4A0011;
+    color: #F5D0D0;
+    border-color: #4A0011;
+    font-family: 'Alegreya', serif;
+}
+.table td{
+    border-color: #4A0011;
+    color: #4A0011;
+    background-color: #F5D0D0;
+    font-family: 'Alegreya', serif;
+}
+.btn-outline-secondary{
+    border-color: #4A0011;
+    color: #4A0011;
+}
+.btn-outline-secondary:hover{
+    border-color: #4A0011;
+    color: #F5D0D0;
+    background-color: #4A0011;
+}
+.itog{
+    border-color: #4A0011;
+    color: #4A0011;
+    background-color: #F5D0D0;
+    font-family: 'Alegreya', serif;
+}
+.button-order{
+    border-color: #4A0011;
+    color: #F5D0D0;
+    background-color: #4A0011;
+    min-width: '200px';
+}
+.button-order:hover{
+    border-color: #4A0011;
+    color: #4A0011;
+    background-color: #F5D0D0;
+}
+.button-order:disabled{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+    opacity: 0.7;
+}

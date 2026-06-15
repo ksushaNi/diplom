@@ -1,0 +1,35 @@
+.product-item-button{
+    background-color: #4A0011;
+    color: #F5D0D0;
+    border-color: #F5D0D0;
+}
+
+.product-item-button:hover{
+    background-color: #F5D0D0;
+    color: #4A0011;
+    border-color: #4A0011;
+}
+
+.product-card{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    font-family: 'Alegreya', serif;
+    height: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+.product-item-button {
+    background-color: #4A0011;
+    color: #F5D0D0;
+    border-color: #F5D0D0;
+    position: absolute;     
+    bottom: 10px;           
+    left: 10px;             
+    right: 10px;           
+    width: auto;            
+}
+
+.product-page{
+    background-color: #F5D0D0;
+}
+

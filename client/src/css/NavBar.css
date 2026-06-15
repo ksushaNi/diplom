@@ -1,0 +1,35 @@
+.navbar-brand {
+    color: #F5D0D0 !important;
+    font-family: 'Dancing Script', serif !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    letter-spacing: 2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+.navbar {
+    background-color: #4A0011;
+    margin-top: 20px; 
+    height: 60px;
+}
+
+.basic-navbar-nav{
+    color: #F5D0D0;
+    font-family: 'Dancing Script', serif;
+    font-size: 20px;
+}
+
+.navbar-custom-button{
+    color: #F5D0D0 !important;
+    background-color: #4A0011 !important;
+    border-color: #F5D0D0 !important;
+    font-family: 'Alegreya', serif;
+}
+
+.navbar-custom-button:hover{
+    background-color: #F5D0D0 !important;
+    color: #4A0011 !important;
+    border-color: #4A0011 !important;
+}

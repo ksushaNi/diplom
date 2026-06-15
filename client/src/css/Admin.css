@@ -1,0 +1,41 @@
+.kategory, .dish, .orders{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+    border-width: 2px;
+    font-family: 'Alegreya', serif;
+    height: 70px;
+}
+.kategory:hover, .dish:hover, .orders:hover{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+}
+.order-close{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+    border-width: 2px;
+    font-family: 'Alegreya', serif;
+}
+.order-close:hover{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+}
+.order-overlay{
+    font-family: 'Alegreya', serif;
+}
+.orders-modal-close{
+    background-color: #F5D0D0;
+    border-color: #4A0011;
+    color: #4A0011;
+    border-width: 2px;
+    font-family: 'Alegreya', serif;
+
+}
+.orders-modal-close:hover{
+    background-color: #4A0011;
+    border-color: #F5D0D0;
+    color: #F5D0D0;
+}
