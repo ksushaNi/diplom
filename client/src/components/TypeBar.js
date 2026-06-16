@@ -6,6 +6,9 @@ import '../css/TypeBar.css';
 
 const TypeBar = observer(() => {
     const { product } = useContext(Context)
+
+    const types = Array.isArray(product.types) ? product.types : [];
+
     return (
         <ListGroup>
             <ListGroup.Item
@@ -17,7 +20,7 @@ const TypeBar = observer(() => {
                 Всё меню
             </ListGroup.Item>
             
-            {product.types.map(type =>
+            {product.types && product.types.map(type =>
                 <ListGroup.Item
                     className='button-type'
                     style={{cursor: 'pointer'}}
