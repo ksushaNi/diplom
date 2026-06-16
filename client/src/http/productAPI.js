@@ -12,10 +12,10 @@ export const fetchTypes = async () => {
     return data.types || data
 }
 
-export const fetchTypes = async () => {
-    const {data} = await $host.get('api/type')
-    return data.types || data
-}
+// export const fetchTypes = async () => {
+//     const {data} = await $host.get('api/type')
+//     return data.types || data
+// }
 
 export const updateType = async (id, name) => {
     const {data} = await $authHost.put(`/api/type/${id}`, {name})
