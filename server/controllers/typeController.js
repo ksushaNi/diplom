@@ -14,7 +14,7 @@ class TypeController  {
         return res.json(types)
     }
     //изменение категорий
-    async update(reg, res) {
+    async update(req, res) {
         const {id} = req.params
         const {name} = req.body
         const type = await Type.findByPk(id)
