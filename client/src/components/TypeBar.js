@@ -20,7 +20,7 @@ const TypeBar = observer(() => {
                 Всё меню
             </ListGroup.Item>
             
-            {product.types && product.types.map(type =>
+            {Array.isArray(product.types) && product.types.map(type =>
                 <ListGroup.Item
                     className='button-type'
                     style={{cursor: 'pointer'}}
