@@ -6,7 +6,7 @@ const adminMiddleware = require('../middlewear/adminMiddleware')
 
 router.get('/', authMiddleware, adminMiddleware, orderController.getAllOrders)  // админ все заказы
 router.get('/user/:id', authMiddleware, orderController.getUserOrders)       // заказы пользователя
-router.put('/:id/status', authMiddleware, adminMiddleware, orderController.updateOrderStatus) // обновить статус
+router.put('/status/:id', authMiddleware, adminMiddleware, orderController.updateOrderStatus) // обновить статус
 router.post('/', authMiddleware, orderController.createOrder)
 
 module.exports = router
