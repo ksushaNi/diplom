@@ -7,7 +7,7 @@ import '../css/TypeBar.css';
 const TypeBar = observer(() => {
     const { product } = useContext(Context)
 
-    const types = Array.isArray(product.types) ? product.types : [];
+    //const types = Array.isArray(product.types) ? product.types : [];
 
     return (
         <ListGroup>
