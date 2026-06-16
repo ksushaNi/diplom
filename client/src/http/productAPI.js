@@ -7,7 +7,7 @@ export const createType = async (type) => {
 
 export const fetchTypes = async () => {
     const {data} = await $host.get('api/type')
-    return data
+    return data.types || data
 }
 
 export const updateType = async (id, name) => {
