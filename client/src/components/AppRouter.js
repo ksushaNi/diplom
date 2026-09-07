@@ -7,7 +7,7 @@ import '../css/AppRouter.css';
 
 const AppRouter = () => {
   const { user } = useContext(Context);
-  
+  console.log('user.isAuth в AppRouter:', user.isAuth)  // ← ДОБАВИТЬ
   return (
     <div className='style-page'>
     <Routes>

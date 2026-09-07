@@ -92,7 +92,7 @@ class OrderController {
                 await BascketProduct.destroy({ where: { bascketId: bascket.id } })
             }
 
-            await sendOrderConfirmation(user.email, order.id, order.totalPrice)
+            //await sendOrderConfirmation(user.email, order.id, order.totalPrice)
 
             return res.json({ message: 'Заказ успешно создан', order })
 

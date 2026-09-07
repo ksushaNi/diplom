@@ -34,6 +34,7 @@ const Auth = observer(() => {
             }
             user.setUser(data)
             user.setIsAuth(true)
+            console.log('user.isAuth:', user.isAuth)
             navigate(SHOP_ROUTE)
             // localStorage.setItem('token', data.token)
         } catch (e) {

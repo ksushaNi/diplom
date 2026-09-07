@@ -6,7 +6,7 @@ const userRouter = require('./userRouter')
 const typeRouter = require('./typeRouter')
 const orderRouter = require('./orderRoutes')
 // указываем, что остальные роуетеры явдяются подроутерами
-// настраиваем маршруты
+// настраиваем маршрутыA
 router.use('/user', userRouter)
 router.use('/type', typeRouter)
 router.use('/product', productRouter)
