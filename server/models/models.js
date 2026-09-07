@@ -46,7 +46,7 @@ const ProductInfo = sequelize.define( 'product_info', {
     description: {type: DataTypes.STRING, allowNull: false},
 })
 
-const Order = sequelize.define('./order', {
+const Order = sequelize.define('order', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     userId: { type: DataTypes.INTEGER, allowNull: false },
     totalPrice: { type: DataTypes.INTEGER, allowNull: false },
@@ -55,7 +55,7 @@ const Order = sequelize.define('./order', {
     phone: { type: DataTypes.STRING, allowNull: false },
     createdAt: { type: DataTypes.DATE, defaultValue: DataTypes.NOW }
 })
-const OrderItem = sequelize.define('./oredrItem', {
+const OrderItem = sequelize.define('oredr_item', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     orderId: { type: DataTypes.INTEGER, allowNull: false },
     productId: { type: DataTypes.INTEGER, allowNull: false },
